@@ -1,0 +1,19 @@
+pkgbase = navicat-mysql
+	pkgdesc = A powerful Database Administration and Development tool for MySQL.
+	pkgver = 11.1.6
+	pkgrel = 2
+	url = http://www.navicat.com
+	arch = any
+	license = custom
+	depends = glibc
+	depends = freetype2
+	depends = gcc-libs
+	depends = zlib
+	depends = libsm
+	depends = libxext
+	depends = alsa-lib
+	source = http://download2.navicat.com/download/navicat111_mysql_en.tar.gz
+	source = icon_navicat.png
+
+pkgname = navicat-mysql
+
